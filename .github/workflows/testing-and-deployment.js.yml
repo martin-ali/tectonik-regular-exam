@@ -8,6 +8,12 @@ on:
   workflow_dispatch:
 
 jobs:
+  display-username:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Display SoftUni username
+      run: echo "Tectonik"
 
   test:
     runs-on: ubuntu-latest
